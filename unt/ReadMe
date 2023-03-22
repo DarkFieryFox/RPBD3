@@ -1,0 +1,9 @@
+
+# Команды перед работой с метором:
+meteor add accounts-password;
+meteor npm install --save bcrypt;
+meteor npm install @types/meteor --save;
+
+# Запуск шардинга:
+docker-compose up
+docker ps
